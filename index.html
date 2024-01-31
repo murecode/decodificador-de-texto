@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Alura Challenge - 01</title>
+</head>
+
+<body class="bg-blue-50">
+
+  <!-- <h1>Challenge 01 Alura - Oracle ONE</h1> -->
+  <div>
+
+    <header>
+      <nav class="bg-blue-50 px-4 lg:px-6 py-2.5">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+
+          <a href="" class="flex items-center">
+            <img src="https://th.bing.com/th/id/OIP.wEO4Eh0colN9RuypuIn_pwHaHa?w=152&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"
+              class="mr-3 h-6 sm:h-9" alt="Logo" />
+            <span class="self-center text-xl font-semibold whitespace-nowrap">Encriptador de texto</span>
+          </a>
+
+        </div>
+      </nav>
+    </header>
+
+    <main class="">
+
+      <div class="flex flex-wrap justify-center gap-6 mt-8 px-4">
+
+        <div class="w-96 h-32 mb-14">
+          <textarea class="inputText w-full h-full p-2 rounded-lg resize-none" placeholder="Escribe algo"></textarea>
+          <div class="flex justify-center">
+            <button class="encoderBtn mx-4 my-4 text-xl w-32 text-white bg-indigo-600 py-2 rounded-xl shadow-lg"
+              name="onEncoder">Encriptar</button>
+            <button class="decoderBtn mx-4 my-4 text-xl w-32 text-white bg-indigo-600 py-2 rounded-xl shadow-lg"
+              name="onDecoder">Desencriptar</button>
+          </div>
+
+        </div>
+
+        <div class="flex justify-center ">
+          <div class="w-96 h-120 px-4">
+
+            <div class="info-content">
+              <img src="assets/searching.svg" alt="" width="300" height="300">
+              <h3 class="mt-4"> Ningun mensaje fue encontrado. Ingresa el texto que deseas encriptar. </h3>
+            </div>
+            <p class="outputText text-3xl font-medium"></p>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
